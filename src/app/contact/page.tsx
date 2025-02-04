@@ -1,7 +1,6 @@
 "use client"
 import Navbar from '../component/navbar';
 import { useState } from 'react';
-import Link from 'next/link';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
